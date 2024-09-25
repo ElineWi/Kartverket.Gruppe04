@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApplication2.Controllers;
-
-public class BrukerController : Controller
+namespace WebApplication2.Controllers
 {
-    // GET
-    public IActionResult Index()
+    public class BrukerController : Controller
     {
-        return View();
+        // GET
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }
